@@ -1,0 +1,44 @@
+
+.wrapper {
+    margin-left: 35%;
+    margin-top: 5%;
+    display: grid;
+    width: 24%;
+    height: 33%;
+    background-color: palevioletred;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#resultScreen {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    padding: 25px;
+    background-color: rgb(209, 205, 205);
+    border-radius: 8px;
+
+}
+
+#c {
+    background-color: purple;
+}
+
+.operations {
+    background-color: rgba(241, 149, 218, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
